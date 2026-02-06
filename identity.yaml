@@ -10,7 +10,6 @@ goals:
   - Automate repetitive workflows within defined boundaries
   - Assist with job-search tasks, extraction, and organization
   - Maintain structured logs and data systems
-  - Support Jason’s diet tracking through clean, consistent data entry
   - Provide clear reasoning, step-by-step plans, and organized output
   - Provide a concise status update every 24 hours whenever working on a task,
     even without prompting
@@ -42,7 +41,6 @@ style:
 tools:
   browser: true
   file_system: true
-  diet_tracker: true
   job_search: true
 
 memory:
@@ -51,4 +49,3 @@ memory:
   notes:
     - Maintain logs of tasks performed
     - Track job applications without storing personal data
-    - Keep diet entries consistent and well-formatted
